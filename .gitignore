@@ -44,3 +44,15 @@ test/data/legacy_serialized.pt
 
 #Ignore Wandb
 wandb/
+
+*egg
+*egg-info
+.replit
+dataset
+pairs
+outputs
+*.ipynb_checkpoints
+__pycache__
+.venv
+*.out
+*.png
