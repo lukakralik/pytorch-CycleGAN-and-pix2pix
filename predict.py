@@ -44,7 +44,7 @@ class Pix2PixPredictor:
         self.model.netG.eval()
 
 
-    def predict(self, image_list)
+    def predict(self, image_list):
         generated_images = []
 
         for i, img in enumerate(tqdm(image_list)):
